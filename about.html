@@ -1,364 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>ARFAH INTERNET </title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
+<html lang="hi" data-title-hi="हमारे बारे में | अरफा इंटरनेट, जामा मस्जिद मार्केट, मारीपुर" data-title-en="About Us | Arfah Internet, Jama Masjid Market, Maripur" data-desc-hi="अरफा इंटरनेट — जामा मस्जिद मार्केट, बटलर रोड, मारीपुर (मुजफ्फरपुर) की दुकान। दुकान और साइनबोर्ड की असली फ़ोटो, खुलने का समय और हमारा काम करने का तरीका।" data-desc-en="Arfah Internet — the shop at Jama Masjid Market, Butler Road, Maripur (Muzaffarpur). Real photos of the shop and signboard, opening hours and how we work.">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About Us | Arfah Internet, Jama Masjid Market, Maripur</title>
+<meta name="description" id="meta-desc" content="अरफा इंटरनेट — जामा मस्जिद मार्केट, बटलर रोड, मारीपुर (मुजफ्फरपुर) की दुकान। दुकान और साइनबोर्ड की असली फ़ोटो, खुलने का समय और हमारा काम करने का तरीका। Arfah Internet — the shop at Jama Masjid Market, Butler Road, Maripur (Muzaffarpur). Real photos of the shop and signboard, opening hours and how we work.">
+<meta name="theme-color" content="#0a1a3f">
+<link rel="canonical" href="https://arfahinternet.in/about.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arfah Internet">
+<meta property="og:url" content="https://arfahinternet.in/about.html">
+<meta property="og:title" content="हमारे बारे में | अरफा इंटरनेट, जामा मस्जिद मार्केट, मारीपुर">
+<meta property="og:description" content="अरफा इंटरनेट — जामा मस्जिद मार्केट, बटलर रोड, मारीपुर (मुजफ्फरपुर) की दुकान। दुकान और साइनबोर्ड की असली फ़ोटो, खुलने का समय और हमारा काम करने का तरीका।">
+<meta property="og:image" content="https://arfahinternet.in/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arfah Internet (अरफा इंटरनेट) — forms, tickets, recharge, mobile, print, website and app work in Maripur, Muzaffarpur">
+<meta property="og:locale" content="hi_IN">
+<meta property="og:locale:alternate" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<script>
+/* Runs before first paint: choose the language (saved choice → ?lang=hi|en → Hindi),
+   set this page's title/description for it, and flag that JavaScript is on. */
+(function () {
+  var d = document.documentElement, lang = 'hi';
+  try {
+    var q = new URLSearchParams(location.search).get('lang');
+    var s = localStorage.getItem('arfah-lang');
+    if (q === 'en' || q === 'hi') lang = q; else if (s === 'en' || s === 'hi') lang = s;
+  } catch (e) {}
+  d.lang = lang; d.className += ' js';
+  var t = d.getAttribute('data-title-' + lang); if (t) document.title = t;
+  var m = document.getElementById('meta-desc'), x = d.getAttribute('data-desc-' + lang); if (m && x) m.content = x;
+})();
+</script>
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
-      rel="stylesheet"
-    />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://arfahinternet.in/" },
+        { "@type": "ListItem", "position": 2, "name": "About us" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+<!--
+  EDIT HERE (one place):  data-wa  = WhatsApp number with country code, no "+"
+                          data-open / data-close = opening / closing hour (24h, India time) used by the live "Open now" badge
+  The phone number also appears in several  tel:  /  wa.me  links and in the header, footer and contact areas of EVERY page.
+  To change it everywhere: VS Code → Edit → Replace in Files → search 7703844756 (and 77038 44756).
+-->
+<body data-wa="917703844756" data-open="8" data-close="22">
+<!-- Icons: Bootstrap Icons v1.11.3 (MIT License, (c) The Bootstrap Authors) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+<symbol id="logo" viewBox="0 0 64 64"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b74ff"/><stop offset="1" stop-color="#0a1a3f"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#lg)"/><path d="M16.5 47.5 32 15l15.5 32.5" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 37.5h16" stroke="#ffbe3d" stroke-width="6" stroke-linecap="round"/></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></symbol>
+<symbol id="i-arrow-up" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/></symbol>
+<symbol id="i-card-checklist" viewBox="0 0 16 16">  <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/><path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/></symbol>
+<symbol id="i-chat-dots-fill" viewBox="0 0 16 16">  <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></symbol>
+<symbol id="i-clock-fill" viewBox="0 0 16 16">  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/></symbol>
+<symbol id="i-envelope-fill" viewBox="0 0 16 16">  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></symbol>
+<symbol id="i-geo-alt-fill" viewBox="0 0 16 16">  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></symbol>
+<symbol id="i-list" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></symbol>
+<symbol id="i-pin-map-fill" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"/><path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/></symbol>
+<symbol id="i-shield-check" viewBox="0 0 16 16">  <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/><path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/></symbol>
+<symbol id="i-signpost-split-fill" viewBox="0 0 16 16">  <path d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5z"/></symbol>
+<symbol id="i-telephone-fill" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></symbol>
+<symbol id="i-translate" viewBox="0 0 16 16">  <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/><path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 16 16">  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></symbol>
+</svg>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+<a class="skip" href="#main"><span lang="hi">मुख्य सामग्री पर जाएँ</span><span lang="en">Skip to main content</span></a>
+<div class="progress-top" aria-hidden="true"></div>
 
-  <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        role="status"
-        style="width: 3rem; height: 3rem"
-      ></div>
+<!-- ===================== Announcement bar (live status) ===================== -->
+<div class="ann on-dark">
+  <div class="wrap">
+    <p class="status" data-status role="status">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="status-text"><span lang="hi">रोज़ खुला · सुबह 8 से रात 10 बजे तक</span><span lang="en">Open daily · 8:00 AM to 10:00 PM</span></span>
+    </p>
+    <div class="ann-links">
+      <a href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span>+91 77038 44756</span></a>
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-geo-alt-fill"/></svg><span><span lang="hi">मारीपुर, मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></span></a>
     </div>
-    <!-- Spinner End -->
+  </div>
+</div>
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-3">
-            <div class="d-flex align-items-center">
-                <a href="index.html">
-                    <h2 class="text-white fw-bold m-0">ARFAH INTERNET</h2>
-                </a>
-                <div class="ms-auto d-flex align-items-center">
-                  <a 
-  href="https://www.google.com/maps/place/26%C2%B007'24.0%22N+85%C2%B022'08.1%22E/@26.1233333,85.3689167,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.1233333!4d85.3689167?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D" 
-  target="_blank" 
-  class="ms-4" 
-  style="text-decoration: none; color: inherit;"
->
-  <i class="fa fa-map-marker-alt me-3"></i>
-  Arfah Internet, Butler Road, Maripur, Muzaffarpur, Bihar!
-</a>
 
-<!-- Include Font Awesome for the icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-                               <small class="ms-4">
-  <i class="fa fa-envelope me-3"></i>
-  <a href="mailto:arfahinternet@gmail.com" class="text-white">arfahinternet@gmail.com</a>
-</small>
-                  <small class="ms-4">
-  <i class="fa fa-phone-alt me-3"></i>
-  <a href="tel:+917703844756" class="text-white">+91 7703844756</a>
-</small>
-                      <div class="ms-3 d-flex">
-                        <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.facebook.com/profile.php?id=100007957693223"><i
-                                class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://www.instagram.com/danish________anam/">
-                    <i class="fab fa-instagram"></i>
-                        <a class="" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
+<!-- ===================== Header ===================== -->
+<header class="hdr" id="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Arfah Internet — home">
+      <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+      <span class="name"><b>Arfah Internet</b><small><span lang="hi">अरफा इंटरनेट · मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></small></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a>
+      <a href="service.html"><span lang="hi">सेवाएँ</span><span lang="en">Services</span></a>
+      <a href="website-app.html"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; App</span></a>
+      <a href="about.html" aria-current="page"><span lang="hi">हमारे बारे में</span><span lang="en">About us</span></a>
+      <a href="contact.html"><span lang="hi">संपर्क</span><span lang="en">Contact</span></a>
+    </nav>
+
+    <div class="hdr-actions">
+      <div class="lang" role="group" aria-label="भाषा / Language">
+        <span class="thumb" aria-hidden="true"></span>
+        <button type="button" data-set-lang="hi" aria-pressed="true">हिंदी</button>
+        <button type="button" data-set-lang="en" aria-pressed="false" aria-label="English">EN</button>
+      </div>
+      <a class="btn btn-gold btn-sm call-btn" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call now</span></a>
+      <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav"><span class="sr-only"><span lang="hi">मेन्यू</span><span lang="en">Menu</span></span><svg class="i" aria-hidden="true"><use href="#i-list"/></svg></button>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+
+<!-- ===================== Page header ===================== -->
+<section class="hero page-hero on-dark" aria-labelledby="page-title">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a><svg class="i" aria-hidden="true"><use href="#i-chevron-right"/></svg><span aria-current="page"><span lang="hi">हमारे बारे में</span><span lang="en">About us</span></span></nav>
+    <h1 id="page-title" class="reveal" style="--d:.05s"><span lang="hi">हमारी दुकान — आकर देख लीजिए</span><span lang="en">Our shop — come and see for yourself</span></h1>
+    <p class="lead reveal" style="--d:.1s"><span lang="hi">अरफा इंटरनेट, मुजफ्फरपुर के मारीपुर में इंटरनेट और डिजिटल कामों का एक ही ठिकाना है — फॉर्म और आवेदन से लेकर टिकट, रिचार्ज और मोबाइल सेवाओं तक, और वेबसाइट व ऐप बनवाने तक। वेबसाइट और ऐप का काम हम Arfah Web Solutions के नाम से भी करते हैं।</span><span lang="en">Arfah Internet is a one-stop point for internet and digital work in Maripur, Muzaffarpur — from forms and applications to tickets, recharge and mobile services, and even getting a website or app built. We also do website and app work under the name Arfah Web Solutions.</span></p>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50C220 100 440 8 720 40s520 56 720 6V90H0Z"/></svg>
+</section>
+
+<!-- ===================== What we do + photos ===================== -->
+<section class="sec" id="photos" aria-labelledby="photos-title" style="padding-top:clamp(1.5rem,3vw,2.5rem)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">दुकान की फ़ोटो</span><span lang="en">Photos of the shop</span></span>
+      <h2 id="photos-title"><span lang="hi">जामा मस्जिद मार्केट, बटलर रोड, मारीपुर</span><span lang="en">Jama Masjid Market, Butler Road, Maripur</span></h2>
+      <p class="sub"><span lang="hi">बोर्ड पर बड़े अक्षरों में "ARFAH INTERNET" लिखा है — इसे देखकर दुकान पहचान लीजिए।</span><span lang="en">The board says "ARFAH INTERNET" in big letters — look for it to find the shop.</span></p>
+    </div>
+
+    <div class="gallery-wrap">
+      <div class="gallery" data-stagger>
+          <figure class="shot reveal">
+            <img src="img/shop-front.jpg" width="1200" height="900" loading="lazy" decoding="async" alt="दुकान का सामने का हिस्सा" data-alt-hi="अरफा इंटरनेट की दुकान का सामने का हिस्सा और काउंटर" data-alt-en="Front of the Arfah Internet shop and counter">
+            <span class="cap"><span><span lang="hi">दुकान का सामने का हिस्सा</span><span lang="en">Shop front</span></span></span>
+          </figure>
+          <figure class="shot reveal">
+            <img src="img/shop-sign-sm.jpg" width="720" height="540" loading="lazy" decoding="async" alt="दुकान का साइनबोर्ड" data-alt-hi="अरफा इंटरनेट का साइनबोर्ड — जामा मस्जिद मार्केट, बटलर रोड" data-alt-en="Arfah Internet signboard — Jama Masjid Market, Butler Road">
+            <span class="cap"><span><span lang="hi">हमारा साइनबोर्ड</span><span lang="en">Our signboard</span></span></span>
+          </figure>
+          <figure class="shot reveal">
+            <img src="img/shop-shelf-sm.jpg" width="720" height="540" loading="lazy" decoding="async" alt="मोबाइल एक्सेसरीज़ की शेल्फ" data-alt-hi="मोबाइल एक्सेसरीज़ — हेडफोन, केबल और चार्जर की शेल्फ" data-alt-en="Mobile accessories — shelves of headphones, cables and chargers">
+            <span class="cap"><span><span lang="hi">मोबाइल एक्सेसरीज़</span><span lang="en">Mobile accessories</span></span></span>
+          </figure>
         </div>
+        <p class="fine photo-note"><span lang="hi">फ़ोटो हमारी ऑनलाइन लिस्टिंग से हैं</span><span lang="en">Photos are from our online listing</span></p>
     </div>
-    <!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <div
-      class="container-fluid bg-white sticky-top wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-          <a href="index.html" class="navbar-brand d-lg-none">
-            <h1 class="fw-bold m-0">ARFAH INTERNET</h1>
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler me-0"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-              <a href="index.html" class="nav-item nav-link">Home</a>
-              <a href="about.html" class="nav-item nav-link active">About</a>
-              <a href="service.html" class="nav-item nav-link">Services</a>
-             
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-           
-          </div>
-        </nav>
+    <div class="what-pills reveal" aria-label="हम क्या करते हैं / What we do">
+      <span class="what-lbl"><span lang="hi">हम क्या करते हैं:</span><span lang="en">What we do:</span></span>
+      <a class="tab" href="service.html?cat=gov#services"><span class="t"><span lang="hi">सरकारी फॉर्म और आवेदन</span><span lang="en">Govt. forms &amp; applications</span></span></a>
+      <a class="tab" href="service.html?cat=travel#services"><span class="t"><span lang="hi">टिकट बुकिंग</span><span lang="en">Ticket booking</span></span></a>
+      <a class="tab" href="service.html?cat=money#services"><span class="t"><span lang="hi">पैसे, रिचार्ज और बिल</span><span lang="en">Money, recharge &amp; bills</span></span></a>
+      <a class="tab" href="service.html?cat=mobile#services"><span class="t"><span lang="hi">मोबाइल और एक्सेसरीज़</span><span lang="en">Mobile &amp; accessories</span></span></a>
+      <a class="tab" href="service.html?cat=print#services"><span class="t"><span lang="hi">प्रिंट और पढ़ाई</span><span lang="en">Print &amp; study</span></span></a>
+      <a class="tab" href="website-app.html"><span class="t"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; app</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== How we work (checkable facts) ===================== -->
+<section class="sec sec-dark on-dark" id="why" aria-labelledby="why-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">भरोसे की बातें</span><span lang="en">Things you can check</span></span>
+      <h2 id="why-title"><span lang="hi">आपको पहले से पता हो — यही हमारा तरीका है</span><span lang="en">You should know before you come — that's how we work</span></h2>
+      <p class="sub"><span lang="hi">जो हम कहते हैं, उसे आप खुद जाँच सकते हैं — पता, समय, फ़ोन, सब सामने है।</span><span lang="en">Everything we say here, you can check yourself — address, timings, phone, all out in the open.</span></p>
+    </div>
+    <div class="bento" data-stagger>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-pin-map-fill"/></svg></span>
+        <h3><span lang="hi">असली दुकान, असली पता</span><span lang="en">A real shop, a real address</span></h3>
+        <p><span lang="hi">जामा मस्जिद मार्केट, बटलर रोड, मारीपुर। दुकान और बोर्ड की फ़ोटो और गूगल मैप ऊपर दिए हैं — आने से पहले देख लीजिए।</span><span lang="en">Jama Masjid Market, Butler Road, Maripur. Photos of the shop and signboard and a Google map are above — check before you come.</span></p>
+        <a class="link" href="contact.html#map"><span lang="hi">फ़ोटो और मैप देखें</span><span lang="en">See photos &amp; map</span> <svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </article>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-clock-fill"/></svg></span>
+        <h3><span lang="hi">रोज़ खुले, समय साफ़</span><span lang="en">Open daily, clear timings</span></h3>
+        <p><span lang="hi">सुबह 8 से रात 10 बजे तक, छुट्टियों में भी। सबसे ऊपर देखिए — अभी खुला है या नहीं, तुरंत पता चल जाएगा।</span><span lang="en">8 AM to 10 PM, even on holidays. Look at the top of the page — it tells you instantly whether we're open right now.</span></p>
+      </article>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-card-checklist"/></svg></span>
+        <h3><span lang="hi">आने से पहले जानिए</span><span lang="en">Know before you come</span></h3>
+        <p><span lang="hi">हर सेवा के लिए ज़रूरी कागज़ों की सूची दी है, ताकि बेकार का चक्कर न लगे।</span><span lang="en">Every service has a document checklist, so you never make a wasted trip.</span></p>
+        <a class="link" href="service.html#services"><span lang="hi">सेवाएँ देखें</span><span lang="en">Browse services</span> <svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </article>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-chat-dots-fill"/></svg></span>
+        <h3><span lang="hi">सीधे बात कीजिए</span><span lang="en">Talk to us directly</span></h3>
+        <p><span lang="hi">कॉल, WhatsApp या ईमेल — सब कुछ इसी पेज पर है, और आप सीधे हमसे बात करेंगे।</span><span lang="en">Call, WhatsApp or email — it's all on this page, and you speak to us directly.</span></p>
+        <a class="link" href="contact.html"><span lang="hi">संपर्क करें</span><span lang="en">Get in touch</span> <svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </article>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-shield-check"/></svg></span>
+        <h3><span lang="hi">हम प्राइवेट दुकान हैं — सरकारी दफ़्तर नहीं</span><span lang="en">We're a private shop — not a government office</span></h3>
+        <p><span lang="hi">अरफा इंटरनेट एक निजी दुकान है। पैन, आधार, पासपोर्ट जैसे दस्तावेज़ संबंधित सरकारी विभाग जारी करते हैं — हम आवेदन भरने, कागज़ जमा करने और प्रक्रिया समझाने में आपकी मदद करते हैं।</span><span lang="en">Arfah Internet is a privately run shop. Documents like PAN, Aadhaar and passport are issued by the respective government departments — we help you with the application, document submission and understanding the process.</span></p>
+      </article>
+      <article class="tcard reveal">
+        <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-translate"/></svg></span>
+        <h3><span lang="hi">आपकी अपनी भाषा में</span><span lang="en">In your own language</span></h3>
+        <p><span lang="hi">यह वेबसाइट हिंदी और English दोनों में है — ऊपर कोने में "हिंदी | EN" बटन से भाषा बदल सकते हैं।</span><span lang="en">This website is in both Hindi and English — switch with the "हिंदी | EN" button in the top corner.</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Find us ===================== -->
+<section class="sec" id="find" aria-labelledby="find-title">
+  <div class="wrap">
+    <div class="find-card reveal">
+      <span class="ico"><svg class="i" aria-hidden="true"><use href="#i-geo-alt-fill"/></svg></span>
+      <h2 id="find-title"><span lang="hi">दुकान तक कैसे पहुँचें</span><span lang="en">How to reach the shop</span></h2>
+      <p><span lang="hi"><strong>जामा मस्जिद मार्केट, बटलर रोड, मारीपुर, मुजफ्फरपुर, बिहार।</strong> नक्शा, रास्ता और Google पर रेटिंग संपर्क पेज पर हैं।</span><span lang="en"><strong>Jama Masjid Market, Butler Road, Maripur, Muzaffarpur, Bihar.</strong> The map, directions and our Google rating are on the Contact page.</span></p>
+      <div class="btns">
+        <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-signpost-split-fill"/></svg><span lang="hi">रास्ता देखें</span><span lang="en">Get directions</span></a>
+        <a class="btn btn-line" href="contact.html#map"><svg class="i" aria-hidden="true"><use href="#i-pin-map-fill"/></svg><span lang="hi">नक्शा और संपर्क</span><span lang="en">Map &amp; contact</span></a>
       </div>
     </div>
-    <!-- Navbar End -->
+  </div>
+</section>
 
-    <!-- Page Header Start -->
-    <div
-      class=""
-      data-wow-delay="0.1s"
-    >
-      <div class="container text-center pt-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="bg-white p-5">
-              <h1 class="display-6 text-uppercase mb-3 animated slideInDown">
-                About
-              </h1>
-              <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                  <li class="breadcrumb-item" aria-current="page">About</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
+<!-- ===================== Closing call-to-action ===================== -->
+<section class="sec cta-sec" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="band-copy">
+        <h2 id="cta-title"><span lang="hi">कुछ पूछना है? सीधे बात कीजिए</span><span lang="en">Have a question? Talk to us directly</span></h2>
+        <p><span lang="hi">कॉल या WhatsApp कीजिए — या सीधे दुकान पर आ जाइए। रोज़ सुबह 8 से रात 10 बजे तक खुले हैं।</span><span lang="en">Call or WhatsApp — or just walk in. We're open every day, 8 AM to 10 PM.</span></p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-gold" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call now</span></a>
+        <a class="btn btn-wa" data-wa href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg><span lang="hi">WhatsApp पर पूछें</span><span lang="en">Ask on WhatsApp</span></a>
       </div>
     </div>
-    <!-- Page Header End -->
+  </div>
+</section>
 
-    <!-- About Start -->
-    <div class="container-fluid pt-6 pb-6">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-            <div class="about-img">
-              <img
-                class="img-fluid w-100"
-                src="https://content.jdmagicbox.com/comp/muzaffarpur/k7/9999px621.x621.200110104116.y4k7/catalogue/arfah-internet-maripur-muzaffarpur-muzaffarpur-online-mobile-phone-recharge-services-2g6kx9ejk6-250.jpg"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-            <h1 class="display-6 text-uppercase mb-4">
-              Bridging the Digital Divide in Butler Road, Maripur, Muzaffarpur,
-              Bihar!
-            </h1>
-            <p class="mb-4">
-              Arfah Internet Solutions is your trusted one-stop destination for
-              all digital and connectivity needs in Muzaffarpur, Bihar. From
-              high-speed internet services to essential everyday tech solutions,
-              we empower individuals and businesses with reliable, affordable,
-              and cutting-edge services.
-            </p>
-          </div>
-        </div>
-      </div>
+
+
+</main>
+
+<!-- ===================== Footer ===================== -->
+<footer class="ftr on-dark">
+  <div class="wrap ftr-grid">
+    <div>
+      <a class="brand" href="index.html" aria-label="Arfah Internet — home">
+        <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+        <span class="name"><b>Arfah Internet</b><small><span lang="hi">अरफा इंटरनेट · मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></small></span>
+      </a>
+      <p><span lang="hi">मारीपुर, मुजफ्फरपुर में फॉर्म, टिकट, रिचार्ज, मोबाइल सेवाओं और प्रिंटिंग का एक ही ठिकाना — और वेबसाइट व ऐप बनवाने की जगह भी (Arfah Web Solutions)।</span><span lang="en">Forms, tickets, recharge, mobile services and printing — one stop in Maripur, Muzaffarpur — and a place to get a website or app built too (Arfah Web Solutions).</span></p>
     </div>
-    <!-- About End -->
-
-    <!-- Features Start -->
-    <div class="container-fluid pt-6 pb-6">
-      <div class="container pt-4">
-        <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-            <div class="feature-item border h-100">
-              <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                <i class="fa fa-check-double fa-2x text-white"></i>
-              </div>
-              <div class="p-5 pt-0">
-                <h5 class="text-uppercase mb-3">Local Expertise</h5>
-                <p>Deep understanding of Muzaffarpur’s connectivity needs.</p>
-                <a
-                  class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                  href="#"
-                  ><b class="bg-white pe-3">Read</b>
-                  <i class="bi bi-arrow-right bg-white ps-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
-            <div class="feature-item border h-100">
-              <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                <i class="fa fa-dollar-sign fa-2x text-white"></i>
-              </div>
-              <div class="p-5 pt-0">
-                <h5 class="text-uppercase">Affordable Pricing</h5>
-                <p>
-                  Competitive rates for students, businesses, and households.
-                </p>
-                <a
-                  class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                  href="#"
-                  ><b class="bg-white pe-3">Read</b>
-                  <i class="bi bi-arrow-right bg-white ps-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-            <div class="feature-item border h-100">
-              <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                <i class="fa fa-check-double fa-2x text-white"></i>
-              </div>
-              <div class="p-5 pt-0">
-                <h5 class="text-uppercase">Customer-Centric</h5>
-                <p>Walk-in support with quick turnaround times.</p>
-                <a
-                  class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                  href="#"
-                  ><b class="bg-white pe-3">Read</b>
-                  <i class="bi bi-arrow-right bg-white ps-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
-            <div class="feature-item border h-100">
-              <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
-                <i class="fa fa-check-double fa-2x text-white"></i>
-              </div>
-              <div class="p-5 pt-0">
-                <h5 class="text-uppercase">Comprehensive Solutions</h5>
-                <p>From SIM cards to passport forms—all under one roof.</p>
-                <a
-                  class="position-relative text-body text-uppercase small d-flex justify-content-between"
-                  href="#"
-                  ><b class="bg-white pe-3">Read</b>
-                  <i class="bi bi-arrow-right bg-white ps-3"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div>
+      <h4><span lang="hi">जल्दी पहुँचें</span><span lang="en">Quick links</span></h4>
+      <ul>
+        <li><a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a></li>
+        <li><a href="service.html"><span lang="hi">सेवाएँ</span><span lang="en">Services</span></a></li>
+        <li><a href="printing-photocopy.html"><span lang="hi">फोटोकॉपी और प्रिंट</span><span lang="en">Photocopy &amp; print</span></a></li>
+        <li><a href="website-app.html"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; App</span></a></li>
+        <li><a href="about.html"><span lang="hi">हमारे बारे में</span><span lang="en">About us</span></a></li>
+        <li><a href="contact.html"><span lang="hi">संपर्क</span><span lang="en">Contact</span></a></li>
+      </ul>
     </div>
-    <!-- Features End -->
-
-    <!-- Footer Start -->
-   <div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Our Office</h5>
-                            <p class="mb-2">
-  <a href="https://www.google.com/maps/place/%E0%A4%B6%E0%A4%BF%E0%A4%B5+%E0%A4%B8%E0%A4%BE%E0%A4%88+%E0%A4%AA%E0%A5%82%E0%A4%9C%E0%A4%BE+%E0%A4%AD%E0%A4%82%E0%A4%A1%E0%A4%BE%E0%A4%B0/@26.1234967,85.3686694,3a,75y,235.6h,91.43t/data=!3m7!1e1!3m5!1sovDQo3BQBe3Ostn30ujqdw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.4284372175325615%26panoid%3DovDQo3BQBe3Ostn30ujqdw%26yaw%3D235.60487791629325!7i13312!8i6656!4m12!1m5!3m4!2zMjbCsDA3JzI0LjAiTiA4NcKwMjInMDguMSJF!8m2!3d26.1233333!4d85.3689167!3m5!1s0x39ed10c4fa2a58a7:0x6dc059f6a378f14b!8m2!3d26.1234365!4d85.3683726!16s%2Fg%2F11y5bct4nr?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-decoration-none text-reset">
-    <i class="fa fa-map-marker-alt text-primary me-3"></i>
-    Arfah Internet, Butler Road, Maripur, Muzaffarpur, Bihar!
-  </a>
-</p>
-                  <p class="mb-2">
-  <i class="fa fa-phone-alt text-primary me-3"></i>
-  <a href="tel:+917703844756" class="text-decoration-none text-white">+91 7703844756</a>
-</p>
-<p class="mb-2">
-  <i class="fa fa-envelope text-primary me-3"></i>
-  <a href="mailto:arfahinternet@gmail.com" class="text-decoration-none text-white">arfahinternet@gmail.com</a>
-</p>
-                  
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Business Hours</h5>
-                    <p class="text-uppercase mb-0">Monday - Friday</p>
-                    <p>08:00 AM - 10:00 PM</p>
-                    <p class="text-uppercase mb-0">Saturday</p>
-                    <p>08:00 AM - 10:00 PM</p>
-                    <p class="text-uppercase mb-0">Sunday</p>
-                    <p>08:00 AM - 10:00 PM</p>
-                    <p class="text-muted mt-2"><small>* Open all days, including holidays*</small></p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase text-light mb-4">Gallery</h5>
-                    <div class="row g-1">
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://content3.jdmagicbox.com/comp/muzaffarpur/k7/9999px621.x621.200110104116.y4k7/catalogue/arfah-internet-maripur-muzaffarpur-muzaffarpur-online-mobile-phone-recharge-services-y6lnc1ydym.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://content3.jdmagicbox.com/comp/muzaffarpur/k7/9999px621.x621.200110104116.y4k7/catalogue/arfah-internet-muzaffarpur-082nrewtuh.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYlr9CUe3T0G_tLAiWMlL9GH2FXbj64s6CHA&s" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UkpvqL7tHpo4rIdDTX___h33letmItds4g&s" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY1uzuoRTa_FZa1UtwGueOrS8SEz_C4jl5w&s" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="https://content.jdmagicbox.com/comp/muzaffarpur/k7/9999px621.x621.200110104116.y4k7/catalogue/arfah-internet-maripur-muzaffarpur-muzaffarpur-online-mobile-phone-recharge-services-2lgn6ljje6-250.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div>
+      <h4><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; app</span></h4>
+      <ul>
+        <li><a href="business-website.html"><span lang="hi">दुकान / बिज़नेस की वेबसाइट</span><span lang="en">Shop &amp; business websites</span></a></li>
+        <li><a href="school-website.html"><span lang="hi">स्कूल की वेबसाइट</span><span lang="en">School websites</span></a></li>
+        <li><a href="coaching-website.html"><span lang="hi">कोचिंग की वेबसाइट</span><span lang="en">Coaching websites</span></a></li>
+        <li><a href="app-development.html"><span lang="hi">मोबाइल ऐप</span><span lang="en">Mobile apps</span></a></li>
+        <li><a href="seo-services.html"><span lang="hi">SEO और Google लिस्टिंग</span><span lang="en">SEO &amp; Google listing</span></a></li>
+        <li><a href="directory.html"><span lang="hi">अपना बिज़नेस लिस्ट कराएँ</span><span lang="en">List your business</span></a></li>
+      </ul>
     </div>
-    <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid text-body copyright py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="fw-semi-bold" href="https://mdamanportfolio.netlify.app/">Md Aman</a>, All
-            Right Reserved.
-          </div>
-       
-        </div>
-      </div>
+    <div>
+      <h4><span lang="hi">संपर्क</span><span lang="en">Contact</span></h4>
+      <ul>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><a href="tel:+917703844756">+91 77038 44756</a></li>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-envelope-fill"/></svg><a href="mailto:arfahinternet@gmail.com">arfahinternet@gmail.com</a></li>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-geo-alt-fill"/></svg><a href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><span lang="hi">जामा मस्जिद मार्केट, बटलर रोड, मारीपुर, मुजफ्फरपुर, बिहार</span><span lang="en">Jama Masjid Market, Butler Road, Maripur, Muzaffarpur, Bihar</span></a></li>
+      </ul>
     </div>
-    <!-- Copyright End -->
+    <div>
+      <h4><span lang="hi">खुलने का समय</span><span lang="en">Opening hours</span></h4>
+      <p><span lang="hi">रोज़ सुबह 8:00 – रात 10:00 बजे<br>सातों दिन, छुट्टियों में भी</span><span lang="en">Every day, 8:00 AM – 10:00 PM<br>All seven days, holidays included</span></p>
+    </div>
+  </div>
+  <div class="ftr-bottom">
+    <div class="wrap">
+      <p class="ftr-legal"><span lang="hi"><strong>अरफा इंटरनेट एक निजी (प्राइवेट) दुकान है — सरकारी कार्यालय नहीं।</strong> पैन, आधार, पासपोर्ट जैसे दस्तावेज़ संबंधित सरकारी विभाग ही जारी करते हैं; हम आवेदन भरने और ऑनलाइन कामों में आपकी मदद करते हैं।</span><span lang="en"><strong>Arfah Internet is a private business — not a government office.</strong> Documents such as PAN, Aadhaar and passport are issued only by the respective government departments; we help you with the applications and online work.</span></p>
+      <span>&copy; <span id="year">2026</span> Arfah Internet. <span lang="hi">सर्वाधिकार सुरक्षित।</span><span lang="en">All rights reserved.</span></span>
+      <span><span lang="hi">वेबसाइट: </span><span lang="en">Website by </span><a href="https://www.mdaman.tech" target="_blank" rel="noopener">Md Aman</a> · <span lang="hi">सभी ब्रांड और पोर्टल के नाम उनके मालिकों के हैं।</span><span lang="en">All brand and portal names belong to their respective owners.</span></span>
+    </div>
+  </div>
+</footer>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- ===================== Floating UI ===================== -->
+<nav class="mbar" aria-label="त्वरित संपर्क / Quick contact">
+  <a class="call" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल</span><span lang="en">Call</span></a>
+  <a class="wa" data-wa href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
+  <a class="dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-signpost-split-fill"/></svg><span lang="hi">रास्ता</span><span lang="en">Directions</span></a>
+</nav>
+<button type="button" class="totop" id="totop"><span class="sr-only"><span lang="hi">ऊपर जाएँ</span><span lang="en">Back to top</span></span><svg class="i" aria-hidden="true"><use href="#i-arrow-up"/></svg></button>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+<script src="js/site.js" defer></script>
+</body>
 </html>

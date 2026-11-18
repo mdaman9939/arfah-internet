@@ -1,346 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>ARFAH INTERNET - Welding Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Arfah Internet</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a1a3f">
+<script>
+(function () {
+  var d = document.documentElement, l = 'hi';
+  try {
+    var q = new URLSearchParams(location.search).get('lang'), s = localStorage.getItem('arfah-lang');
+    if (q === 'en' || q === 'hi') l = q; else if (s === 'en' || s === 'hi') l = s;
+  } catch (e) {}
+  d.lang = l;
+})();
+</script>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html[lang="hi"] { font-size: 106.25%; }
+  html[lang="hi"] [lang="en"], html[lang="en"] [lang="hi"] { display: none !important; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; color: #fff; line-height: 1.75;
+    font-family: 'Poppins', 'Noto Sans Devanagari', 'Nirmala UI', 'Mangal', system-ui, sans-serif;
+    background: radial-gradient(40% 40% at 82% 18%, rgba(59, 116, 255, .5), transparent 70%),
+                radial-gradient(34% 34% at 8% 92%, rgba(245, 165, 11, .26), transparent 70%), #050f27;
+  }
+  html[lang="hi"] body { font-weight: 500; }
+  .card { max-width: 580px; text-align: center; }
+  .mark { width: 68px; height: 68px; border-radius: 23.4%; margin: 0 auto 1.4rem; box-shadow: 0 12px 32px rgba(0, 0, 0, .45); }
+  .code { margin: 0; font-size: clamp(5.5rem, 24vw, 9.5rem); font-weight: 700; line-height: 1;
+          background: linear-gradient(100deg, #ffbe3d, #fff0c2); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  h1 { margin: .4rem 0 .6rem; font-size: clamp(1.4rem, 4.2vw, 2rem); font-weight: 700; line-height: 1.35; }
+  p { margin: 0 0 1.8rem; color: #c8d5f6; }
+  .row { display: flex; flex-wrap: wrap; gap: .7rem; justify-content: center; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 52px; padding: .6rem 1.5rem; border-radius: 999px;
+         border: 2px solid transparent; font-weight: 600; font-size: 1rem; text-decoration: none; transition: transform .25s, box-shadow .25s, background .25s; }
+  .btn:hover { transform: translateY(-3px); }
+  .btn svg { width: 1.15em; height: 1.15em; fill: currentColor; }
+  .gold { background: linear-gradient(135deg, #ffbe3d, #f5a50b); color: #050f27; box-shadow: 0 10px 26px rgba(245, 165, 11, .38); }
+  .ghost { color: #fff; border-color: rgba(255, 255, 255, .3); background: rgba(255, 255, 255, .08); }
+  .wa { background: #12864a; color: #fff; }
+  .lang { position: fixed; top: 16px; right: 16px; display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: rgba(255, 255, 255, .12); }
+  .lang button { min-width: 52px; min-height: 36px; border: 0; border-radius: 999px; background: transparent; color: #fff; font: 700 .9rem 'Poppins', 'Noto Sans Devanagari', sans-serif; cursor: pointer; }
+  .lang button[aria-pressed="true"] { background: #ffbe3d; color: #050f27; }
+  :focus-visible { outline: 3px solid #ffbe3d; outline-offset: 3px; }
+</style>
+</head>
+<body>
+<!-- Icons: Bootstrap Icons v1.11.3 (MIT License, (c) The Bootstrap Authors) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+<symbol id="logo" viewBox="0 0 64 64"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b74ff"/><stop offset="1" stop-color="#0a1a3f"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#lg)"/><path d="M16.5 47.5 32 15l15.5 32.5" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 37.5h16" stroke="#ffbe3d" stroke-width="6" stroke-linecap="round"/></symbol>
+<symbol id="i-telephone-fill" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 16 16">  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></symbol>
+</svg>
+<div class="lang" role="group" aria-label="भाषा / Language">
+  <button type="button" data-set-lang="hi" aria-pressed="true">हिंदी</button>
+  <button type="button" data-set-lang="en" aria-pressed="false" aria-label="English">EN</button>
+</div>
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<main class="card">
+  <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+  <p class="code" aria-hidden="true" style="margin:0 0 0">404</p>
+  <h1><span lang="hi">यह पेज नहीं मिला</span><span lang="en">We can't find that page</span></h1>
+  <p><span lang="hi">शायद लिंक पुराना है या गलत लिखा गया है। नीचे से सही जगह पहुँचिए — या हमें सीधे कॉल या WhatsApp कीजिए।</span><span lang="en">The link may be old or mistyped. Use the buttons below to get back on track — or call or WhatsApp us directly.</span></p>
+  <div class="row">
+    <a class="btn gold" href="index.html"><span lang="hi">होम पेज पर जाएँ</span><span lang="en">Go to the home page</span></a>
+    <a class="btn ghost" href="service.html"><span lang="hi">हमारी सेवाएँ</span><span lang="en">Our services</span></a>
+  </div>
+  <div class="row" style="margin-top:.8rem">
+    <a class="btn ghost" href="tel:+917703844756"><svg aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call</span></a>
+    <a class="btn wa" href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
+  </div>
+</main>
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
-    />
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        role="status"
-        style="width: 3rem; height: 3rem"
-      ></div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Topbar Start -->
-    <div
-      class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-3">
-        <div class="d-flex align-items-center">
-          <a href="index.html">
-            <h2 class="text-white fw-bold m-0">ARFAH INTERNET</h2>
-          </a>
-          <div class="ms-auto d-flex align-items-center">
-            <small class="ms-4"
-              ><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York,
-              USA</small
-            >
-            <small class="ms-4"
-              ><i class="fa fa-envelope me-3"></i>info@example.com</small
-            >
-            <small class="ms-4"
-              ><i class="fa fa-phone-alt me-3"></i>+012 345 67890</small
-            >
-            <div class="ms-3 d-flex">
-              <a class="btn btn-sm-square btn-light text-primary ms-2" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-sm-square btn-light text-primary ms-2" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-sm-square btn-light text-primary ms-2" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Topbar End -->
-
-    <!-- Navbar Start -->
-    <div
-      class="container-fluid bg-white sticky-top wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-          <a href="index.html" class="navbar-brand d-lg-none">
-            <h1 class="fw-bold m-0">ARFAH INTERNET</h1>
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler me-0"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-              <a href="index.html" class="nav-item nav-link">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="service.html" class="nav-item nav-link">Services</a>
-              <div class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link dropdown-toggle active"
-                  data-bs-toggle="dropdown"
-                  >Pages</a
-                >
-                <div
-                  class="dropdown-menu bg-light rounded-0 rounded-bottom m-0"
-                >
-                  <a href="feature.html" class="dropdown-item">Features</a>
-                  <a href="team.html" class="dropdown-item">Our Team</a>
-                  <a href="testimonial.html" class="dropdown-item"
-                    >Testimonial</a
-                  >
-                  <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                  <a href="404.html" class="dropdown-item active">404 Page</a>
-                </div>
-              </div>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="ms-auto d-none d-lg-block">
-              <a href="" class="btn btn-primary py-2 px-3">Get A Quote</a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-    <!-- Navbar End -->
-
-    <!-- Page Header Start -->
-    <div
-      class="container-fluid page-header pt-5 mb-6 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container text-center pt-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="bg-white p-5">
-              <h1 class="display-6 text-uppercase mb-3 animated slideInDown">
-                404
-              </h1>
-              <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                  <li class="breadcrumb-item" aria-current="page">404</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Page Header End -->
-
-    <!-- 404 Start -->
-    <div class="container-fluid pt-6 pb-6 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container text-center">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-            <h1 class="display-1 text-uppercase">404</h1>
-            <h2 class="text-uppercase mb-4">Page Not Found</h2>
-            <p class="mb-4">
-              We’re sorry, the page you have looked for does not exist in our
-              website! Maybe go to our home page or try to use a search?
-            </p>
-            <a class="btn btn-primary py-3 px-4" href="">Go Back To Home</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 404 End -->
-
-    <!-- Newsletter Start -->
-    <div
-      class="container-fluid newsletter mt-6 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container pb-5">
-        <div class="bg-white p-5 mb-5">
-          <div class="row g-5">
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-              <h1 class="display-6 text-uppercase mb-4">Newsletter</h1>
-              <div class="d-flex">
-                <i class="far fa-envelope-open fa-3x text-primary me-4"></i>
-                <p class="fs-5 fst-italic mb-0">
-                  Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                  labore lorem ipsum.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
-              <div class="form-floating mb-3">
-                <input
-                  type="email"
-                  class="form-control border-0 bg-light"
-                  id="mail"
-                  placeholder="Your Email"
-                />
-                <label for="mail">Your Email</label>
-              </div>
-              <button class="btn btn-primary w-100 py-3" type="submit">
-                Submit Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Newsletter End -->
-
-    <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark footer py-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-uppercase text-light mb-4">Our Office</h5>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street,
-              New York, USA
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope text-primary me-3"></i>info@example.com
-            </p>
-            <div class="d-flex pt-3">
-              <a class="btn btn-square btn-light me-2" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-square btn-light me-2" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-square btn-light me-2" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-square btn-light me-2" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-uppercase text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-uppercase text-light mb-4">Business Hours</h5>
-            <p class="text-uppercase mb-0">Monday - Friday</p>
-            <p>09:00 am - 07:00 pm</p>
-            <p class="text-uppercase mb-0">Saturday</p>
-            <p>09:00 am - 12:00 pm</p>
-            <p class="text-uppercase mb-0">Sunday</p>
-            <p>Closed</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-uppercase text-light mb-4">Gallery</h5>
-            <div class="row g-1">
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-1.jpg" alt="" />
-              </div>
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-2.jpg" alt="" />
-              </div>
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-3.jpg" alt="" />
-              </div>
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-4.jpg" alt="" />
-              </div>
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-5.jpg" alt="" />
-              </div>
-              <div class="col-4">
-                <img class="img-fluid" src="img/service-6.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid text-body copyright py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All
-            Right Reserved.
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-            Designed By
-            <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Copyright End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+<script>
+(function () {
+  var d = document.documentElement;
+  function setLang(l) {
+    d.lang = l;
+    try { localStorage.setItem('arfah-lang', l); } catch (e) {}
+    Array.prototype.forEach.call(document.querySelectorAll('[data-set-lang]'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.setLang === l)); });
+    document.title = l === 'hi' ? '404 — पेज नहीं मिला | अरफा इंटरनेट' : '404 — Page not found | Arfah Internet';
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('[data-set-lang]'), function (b) { b.addEventListener('click', function () { setLang(b.dataset.setLang); }); });
+  setLang(d.lang === 'en' ? 'en' : 'hi');
+})();
+</script>
+</body>
 </html>

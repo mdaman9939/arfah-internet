@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="hi" data-title-hi="मोबाइल ऐप बनवाइए (Android और iOS) — मुजफ्फरपुर | अरफा इंटरनेट" data-title-en="Mobile App Development in Muzaffarpur | Arfah Internet" data-desc-hi="मुजफ्फरपुर में दुकान, स्कूल, कोचिंग और बिज़नेस के लिए मोबाइल ऐप — Android और iOS। पहले बात करके तय करेंगे कि आपके लिए ऐप ठीक है या वेबसाइट।" data-desc-en="Mobile app development in Muzaffarpur for shops, schools, coaching institutes and businesses — Android and iOS. First we help you decide whether an app or a website suits you.">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mobile App Development in Muzaffarpur | Arfah Internet</title>
+<meta name="description" id="meta-desc" content="मुजफ्फरपुर में दुकान, स्कूल, कोचिंग और बिज़नेस के लिए मोबाइल ऐप — Android और iOS। पहले बात करके तय करेंगे कि आपके लिए ऐप ठीक है या वेबसाइट। Mobile app development in Muzaffarpur for shops, schools, coaching institutes and businesses — Android and iOS. First we help you decide whether an app or a website suits you.">
+<meta name="theme-color" content="#0a1a3f">
+<link rel="canonical" href="https://arfahinternet.in/app-development.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arfah Internet">
+<meta property="og:url" content="https://arfahinternet.in/app-development.html">
+<meta property="og:title" content="मोबाइल ऐप बनवाइए (Android और iOS) — मुजफ्फरपुर | अरफा इंटरनेट">
+<meta property="og:description" content="मुजफ्फरपुर में दुकान, स्कूल, कोचिंग और बिज़नेस के लिए मोबाइल ऐप — Android और iOS। पहले बात करके तय करेंगे कि आपके लिए ऐप ठीक है या वेबसाइट।">
+<meta property="og:image" content="https://arfahinternet.in/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arfah Internet (अरफा इंटरनेट) — forms, tickets, recharge, mobile, print, website and app work in Maripur, Muzaffarpur">
+<meta property="og:locale" content="hi_IN">
+<meta property="og:locale:alternate" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+
+<script>
+/* Runs before first paint: choose the language (saved choice → ?lang=hi|en → Hindi),
+   set this page's title/description for it, and flag that JavaScript is on. */
+(function () {
+  var d = document.documentElement, lang = 'hi';
+  try {
+    var q = new URLSearchParams(location.search).get('lang');
+    var s = localStorage.getItem('arfah-lang');
+    if (q === 'en' || q === 'hi') lang = q; else if (s === 'en' || s === 'hi') lang = s;
+  } catch (e) {}
+  d.lang = lang; d.className += ' js';
+  var t = d.getAttribute('data-title-' + lang); if (t) document.title = t;
+  var m = document.getElementById('meta-desc'), x = d.getAttribute('data-desc-' + lang); if (m && x) m.content = x;
+})();
+</script>
+
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Mobile app development",
+      "serviceType": "Mobile app development",
+      "description": "Android and iOS apps for shops, schools, coaching institutes and businesses in Muzaffarpur, built around the client's needs.",
+      "url": "https://arfahinternet.in/app-development.html",
+      "areaServed": { "@type": "AdministrativeArea", "name": "Muzaffarpur district, Bihar" },
+      "provider": { "@type": "InternetCafe", "@id": "https://arfahinternet.in/#business", "name": "Arfah Internet", "url": "https://arfahinternet.in/", "telephone": "+91 7703844756", "address": { "@type": "PostalAddress", "streetAddress": "Jama Masjid Market, Butler Road, Maripur", "addressLocality": "Muzaffarpur", "addressRegion": "Bihar", "postalCode": "842001", "addressCountry": "IN" } }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://arfahinternet.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Website and App", "item": "https://arfahinternet.in/website-app.html" },
+        { "@type": "ListItem", "position": 3, "name": "Mobile app" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<!--
+  EDIT HERE (one place):  data-wa  = WhatsApp number with country code, no "+"
+                          data-open / data-close = opening / closing hour (24h, India time) used by the live "Open now" badge
+  The phone number also appears in several  tel:  /  wa.me  links and in the header, footer and contact areas of EVERY page.
+  To change it everywhere: VS Code → Edit → Replace in Files → search 7703844756 (and 77038 44756).
+-->
+<body data-wa="917703844756" data-open="8" data-close="22">
+<!-- Icons: Bootstrap Icons v1.11.3 (MIT License, (c) The Bootstrap Authors) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+<symbol id="logo" viewBox="0 0 64 64"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b74ff"/><stop offset="1" stop-color="#0a1a3f"/></linearGradient></defs><rect width="64" height="64" rx="15" fill="url(#lg)"/><path d="M16.5 47.5 32 15l15.5 32.5" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 37.5h16" stroke="#ffbe3d" stroke-width="6" stroke-linecap="round"/></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></symbol>
+<symbol id="i-arrow-up" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/></symbol>
+<symbol id="i-check-circle-fill" viewBox="0 0 16 16">  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></symbol>
+<symbol id="i-envelope-fill" viewBox="0 0 16 16">  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></symbol>
+<symbol id="i-gear-fill" viewBox="0 0 16 16">  <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/></symbol>
+<symbol id="i-geo-alt-fill" viewBox="0 0 16 16">  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></symbol>
+<symbol id="i-grid-fill" viewBox="0 0 16 16">  <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"/></symbol>
+<symbol id="i-laptop" viewBox="0 0 16 16">  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/></symbol>
+<symbol id="i-layers-fill" viewBox="0 0 16 16">  <path d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882z"/><path d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0z"/></symbol>
+<symbol id="i-lightbulb-fill" viewBox="0 0 16 16">  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/></symbol>
+<symbol id="i-list" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></symbol>
+<symbol id="i-mortarboard-fill" viewBox="0 0 16 16">  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/><path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/></symbol>
+<symbol id="i-person-check-fill" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/><path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></symbol>
+<symbol id="i-phone-fill" viewBox="0 0 16 16">  <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/></symbol>
+<symbol id="i-shield-check" viewBox="0 0 16 16">  <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/><path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/></symbol>
+<symbol id="i-signpost-split-fill" viewBox="0 0 16 16">  <path d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5z"/></symbol>
+<symbol id="i-telephone-fill" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 16 16">  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></symbol>
+</svg>
+
+<a class="skip" href="#main"><span lang="hi">मुख्य सामग्री पर जाएँ</span><span lang="en">Skip to main content</span></a>
+<div class="progress-top" aria-hidden="true"></div>
+
+<!-- ===================== Announcement bar (live status) ===================== -->
+<div class="ann on-dark">
+  <div class="wrap">
+    <p class="status" data-status role="status">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="status-text"><span lang="hi">रोज़ खुला · सुबह 8 से रात 10 बजे तक</span><span lang="en">Open daily · 8:00 AM to 10:00 PM</span></span>
+    </p>
+    <div class="ann-links">
+      <a href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span>+91 77038 44756</span></a>
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-geo-alt-fill"/></svg><span><span lang="hi">मारीपुर, मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></span></a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================== Header ===================== -->
+<header class="hdr" id="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Arfah Internet — home">
+      <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+      <span class="name"><b>Arfah Internet</b><small><span lang="hi">अरफा इंटरनेट · मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></small></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a>
+      <a href="service.html"><span lang="hi">सेवाएँ</span><span lang="en">Services</span></a>
+      <a href="website-app.html" class="active"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; App</span></a>
+      <a href="about.html"><span lang="hi">हमारे बारे में</span><span lang="en">About us</span></a>
+      <a href="contact.html"><span lang="hi">संपर्क</span><span lang="en">Contact</span></a>
+    </nav>
+
+    <div class="hdr-actions">
+      <div class="lang" role="group" aria-label="भाषा / Language">
+        <span class="thumb" aria-hidden="true"></span>
+        <button type="button" data-set-lang="hi" aria-pressed="true">हिंदी</button>
+        <button type="button" data-set-lang="en" aria-pressed="false" aria-label="English">EN</button>
+      </div>
+      <a class="btn btn-gold btn-sm call-btn" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call now</span></a>
+      <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav"><span class="sr-only"><span lang="hi">मेन्यू</span><span lang="en">Menu</span></span><svg class="i" aria-hidden="true"><use href="#i-list"/></svg></button>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+
+<!-- ===================== Page header ===================== -->
+<section class="hero page-hero on-dark" aria-labelledby="page-title">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a><svg class="i" aria-hidden="true"><use href="#i-chevron-right"/></svg><a href="website-app.html"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; App</span></a><svg class="i" aria-hidden="true"><use href="#i-chevron-right"/></svg><span aria-current="page"><span lang="hi">मोबाइल ऐप</span><span lang="en">Mobile app</span></span></nav>
+    <h1 id="page-title" class="reveal" style="--d:.05s"><span lang="hi">मुजफ्फरपुर में मोबाइल ऐप बनवाइए — Android और iOS</span><span lang="en">Mobile app development in Muzaffarpur — Android &amp; iOS</span></h1>
+    <p class="lead reveal" style="--d:.1s"><span lang="hi">दुकान, स्कूल, कोचिंग या बिज़नेस के लिए ऐसा ऐप, जो आपके काम के हिसाब से बने। पहले बात करके तय करेंगे कि आपके लिए ऐप ठीक रहेगा या वेबसाइट से ही काम चल जाएगा।</span><span lang="en">An app for your shop, school, coaching institute or business, built around how you work. First we'll talk it through — whether an app is right for you, or a website will do the job.</span></p>
+    <div class="cta-row reveal" style="--d:.15s">
+      <a class="btn btn-wa" data-wa data-wa-hi="नमस्ते अरफा इंटरनेट, मुझे मोबाइल ऐप बनवाने के बारे में बात करनी है।" data-wa-en="Hello Arfah Internet, I'd like to talk about getting a mobile app built." href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg><span lang="hi">WhatsApp पर बताइए</span><span lang="en">Tell us on WhatsApp</span></a>
+      <a class="btn btn-gold" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call now</span></a>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50C220 100 440 8 720 40s520 56 720 6V90H0Z"/></svg>
+</section>
+
+<!-- ===================== Kinds of apps ===================== -->
+<section class="sec" id="kinds" aria-labelledby="kinds-title" style="padding-top:clamp(1.5rem,3vw,2.5rem)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">कैसे ऐप</span><span lang="en">Kinds of apps</span></span>
+      <h2 id="kinds-title"><span lang="hi">आपके काम के हिसाब से ऐप</span><span lang="en">Apps shaped around your work</span></h2>
+      <p class="sub"><span lang="hi">कुछ उदाहरण — असली ऐप आपकी ज़रूरत से तय होता है।</span><span lang="en">A few examples — the actual app is decided by your needs.</span></p>
+    </div>
+    <div class="offer-grid" data-stagger>
+      <article class="offer reveal" data-cat="money">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-grid-fill"/></svg></span>
+        <h3><span lang="hi">दुकान और बिज़नेस का ऐप</span><span lang="en">Shop &amp; business apps</span></h3>
+        <p><span lang="hi">सामान की सूची, ऑर्डर, ऑफ़र की सूचना और ग्राहकों से संपर्क।</span><span lang="en">Product lists, orders, offer notifications and staying in touch with customers.</span></p>
+        <ul class="tags"><li><span lang="hi">ऑर्डर</span><span lang="en">Orders</span></li><li><span lang="hi">कैटलॉग</span><span lang="en">Catalogue</span></li></ul>
+      </article>
+      <article class="offer reveal" data-cat="gov">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-mortarboard-fill"/></svg></span>
+        <h3><span lang="hi">स्कूल और कोचिंग का ऐप</span><span lang="en">School &amp; coaching apps</span></h3>
+        <p><span lang="hi">नोटिस, होमवर्क, नोट्स, टेस्ट और फ़ीस से जुड़ी जानकारी।</span><span lang="en">Notices, homework, notes, tests and fee information.</span></p>
+        <ul class="tags"><li><span lang="hi">स्कूल</span><span lang="en">School</span></li><li><span lang="hi">कोचिंग</span><span lang="en">Coaching</span></li></ul>
+      </article>
+      <article class="offer reveal" data-cat="travel">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-layers-fill"/></svg></span>
+        <h3><span lang="hi">मैनेजमेंट ऐप</span><span lang="en">Management apps</span></h3>
+        <p><span lang="hi">स्टॉक, स्टाफ़, हिसाब-किताब और रिकॉर्ड — रोज़ के काम के लिए।</span><span lang="en">Stock, staff, accounts and records — for day-to-day work.</span></p>
+        <ul class="tags"><li><span lang="hi">स्टॉक</span><span lang="en">Stock</span></li><li><span lang="hi">रिकॉर्ड</span><span lang="en">Records</span></li></ul>
+      </article>
+      <article class="offer reveal" data-cat="mobile">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-phone-fill"/></svg></span>
+        <h3><span lang="hi">Android और iOS</span><span lang="en">Android &amp; iOS</span></h3>
+        <p><span lang="hi">दोनों के लिए ऐप बनते हैं। शुरुआत सिर्फ़ Android से भी हो सकती है, अगर आपके ज़्यादातर ग्राहक Android फ़ोन चलाते हैं।</span><span lang="en">Apps are built for both. You can also start with Android only, if most of your customers use Android phones.</span></p>
+      </article>
+      <article class="offer reveal" data-cat="all">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-gear-fill"/></svg></span>
+        <h3><span lang="hi">आपके आइडिया का ऐप</span><span lang="en">An app for your idea</span></h3>
+        <p><span lang="hi">आपका अपना आइडिया — पहले उसे समझेंगे, फिर बताएँगे कि वह कैसे बन सकता है।</span><span lang="en">Your own idea — we'll understand it first, then explain how it can be built.</span></p>
+      </article>
+      <article class="offer offer--idea reveal" data-cat="print">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-lightbulb-fill"/></svg></span>
+        <h3><span lang="hi">पक्का नहीं पता?</span><span lang="en">Not sure yet?</span></h3>
+        <p><span lang="hi">कोई बात नहीं — अपना काम बताइए, हम बताएँगे कि ऐप ठीक रहेगा या वेबसाइट।</span><span lang="en">No problem — tell us about your work and we'll tell you whether an app or a website suits it.</span></p>
+        <a class="btn btn-wa btn-sm" data-wa data-wa-hi="नमस्ते अरफा इंटरनेट, मुझे जानना है कि मेरे काम के लिए ऐप ठीक रहेगा या वेबसाइट।" data-wa-en="Hello Arfah Internet, I'd like to know whether an app or a website suits my work." href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg><span lang="hi">पूछिए</span><span lang="en">Ask us</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== App or website? ===================== -->
+<section class="sec how" id="app-or-website" aria-labelledby="choose-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">सही चुनाव</span><span lang="en">The right choice</span></span>
+      <h2 id="choose-title"><span lang="hi">ऐप या वेबसाइट — आपके लिए क्या ठीक है?</span><span lang="en">App or website — which is right for you?</span></h2>
+      <p class="sub"><span lang="hi">हर काम के लिए ऐप ज़रूरी नहीं। सीधी बात:</span><span lang="en">Not every business needs an app. Plainly put:</span></p>
+    </div>
+    <div class="action-cards" data-stagger>
+      <article class="offer reveal" data-cat="gov">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-laptop"/></svg></span>
+        <h3><span lang="hi">वेबसाइट काफ़ी है, जब…</span><span lang="en">A website is enough when…</span></h3>
+        <ul class="ticks">
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">ग्राहक आपको पहली बार Google पर खोज रहे हैं</span><span lang="en">Customers are finding you for the first time on Google</span></span></li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">आपको जानकारी, सेवाएँ और संपर्क दिखाना है</span><span lang="en">You mainly need to show information, services and contact details</span></span></li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">बजट कम है और जल्दी शुरू करना है</span><span lang="en">The budget is small and you want to start soon</span></span></li>
+        </ul>
+        <a class="btn btn-line btn-sm" href="business-website.html"><span lang="hi">दुकान की वेबसाइट</span><span lang="en">Shop websites</span><svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </article>
+      <article class="offer reveal" data-cat="mobile">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-phone-fill"/></svg></span>
+        <h3><span lang="hi">ऐप सही रहता है, जब…</span><span lang="en">An app makes sense when…</span></h3>
+        <ul class="ticks">
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">वही लोग बार-बार इस्तेमाल करते हैं — जैसे छात्र, स्टाफ़ या पक्के ग्राहक</span><span lang="en">The same people use it again and again — students, staff or regular customers</span></span></li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">उन्हें फ़ोन पर सूचनाएँ (notifications) भेजनी हैं</span><span lang="en">You need to send them notifications on their phones</span></span></li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check-circle-fill"/></svg><span><span lang="hi">फ़ोन का कैमरा या लोकेशन जैसी सुविधाएँ चाहिए</span><span lang="en">You need phone features like the camera or location</span></span></li>
+        </ul>
+      </article>
+    </div>
+    <p class="note-bar note-bar--info reveal"><svg class="i" aria-hidden="true"><use href="#i-shield-check"/></svg><span><span lang="hi"><strong>Play Store और App Store:</strong> ऐप को स्टोर पर डालने के लिए Google और Apple के डेवलपर अकाउंट लगते हैं — इनकी फ़ीस उन्हीं कंपनियों को जाती है, और अकाउंट आपके (बिज़नेस के) नाम पर होना बेहतर रहता है। बात करते समय यह भी समझा देंगे।</span><span lang="en"><strong>Play Store &amp; App Store:</strong> publishing an app needs Google and Apple developer accounts — their fees go to those companies, and it's best to have the accounts in your (business's) name. We'll explain this when we talk.</span></span></p>
+  </div>
+</section>
+
+<!-- ===================== How it works ===================== -->
+<section class="sec" id="process" aria-labelledby="process-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">तरीका</span><span lang="en">The process</span></span>
+      <h2 id="process-title"><span lang="hi">ऐप कैसे बनता है</span><span lang="en">How an app gets made</span></h2>
+    </div>
+    <ol class="steps" data-stagger>
+      <li class="step reveal"><span class="n">1</span><div><h3><span lang="hi">ज़रूरत और आइडिया</span><span lang="en">Your need and idea</span></h3><p><span lang="hi">ऐप कौन चलाएगा, उसमें क्या होगा और सबसे ज़रूरी चीज़ क्या है।</span><span lang="en">Who will use the app, what goes in it and what matters most.</span></p></div></li>
+      <li class="step reveal"><span class="n">2</span><div><h3><span lang="hi">स्क्रीन का नक्शा</span><span lang="en">Planning the screens</span></h3><p><span lang="hi">ऐप में कौन-सी स्क्रीन और बटन होंगे, यह पहले तय करके आपको दिखाना।</span><span lang="en">Deciding the screens and buttons first, and showing them to you.</span></p></div></li>
+      <li class="step reveal"><span class="n">3</span><div><h3><span lang="hi">बनाना और दिखाना</span><span lang="en">Building and reviewing</span></h3><p><span lang="hi">बनाते समय आपको दिखाते रहते हैं, ताकि आपकी पसंद के हिसाब से बने।</span><span lang="en">You see it as it takes shape, so it ends up the way you want.</span></p></div></li>
+      <li class="step reveal"><span class="n">4</span><div><h3><span lang="hi">चालू करना</span><span lang="en">Going live</span></h3><p><span lang="hi">ऐप को स्टोर पर डालने में मदद और इस्तेमाल करना समझाना।</span><span lang="en">Help publishing the app to the store, and showing you how to use it.</span></p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="sec how" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">सवाल-जवाब</span><span lang="en">FAQ</span></span>
+      <h2 id="faq-title"><span lang="hi">मोबाइल ऐप के बारे में सवाल</span><span lang="en">Questions about mobile apps</span></h2>
+    </div>
+    <div class="faq reveal" data-stagger>
+      <details>
+        <summary><span><span lang="hi">ऐप बनवाने में कितना खर्च और समय लगेगा?</span><span lang="en">How much will an app cost, and how long will it take?</span></span><svg class="i" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+        <div class="ans"><span lang="hi">यह ऐप की स्क्रीन और सुविधाओं पर निर्भर करता है, इसलिए एक तय रेट नहीं है। अपनी ज़रूरत बताइए — उसके बाद खर्च और समय का अंदाज़ा दिया जाएगा।</span><span lang="en">It depends on the app's screens and features, so there's no single fixed rate. Tell us your requirement — you'll get an estimate of cost and time after that.</span></div>
+      </details>
+      <details>
+        <summary><span><span lang="hi">क्या ऐप हिंदी में बन सकता है?</span><span lang="en">Can the app be in Hindi?</span></span><svg class="i" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+        <div class="ans"><span lang="hi">जी हाँ — हिंदी, English या दोनों।</span><span lang="en">Yes — Hindi, English or both.</span></div>
+      </details>
+      <details>
+        <summary><span><span lang="hi">क्या बाद में नई सुविधाएँ जुड़ सकती हैं?</span><span lang="en">Can features be added later?</span></span><svg class="i" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+        <div class="ans"><span lang="hi">आम तौर पर हाँ। अक्सर समझदारी इसी में है कि पहले ज़रूरी सुविधाओं से शुरुआत हो, और बाकी बाद में जोड़ी जाएँ।</span><span lang="en">Usually, yes. It's often wise to start with the essential features and add the rest later.</span></div>
+      </details>
+      <details>
+        <summary><span><span lang="hi">क्या पहले मिलकर बात हो सकती है?</span><span lang="en">Can we talk in person first?</span></span><svg class="i" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+        <div class="ans"><span lang="hi">जी हाँ — दुकान पर आइए (रोज़ सुबह 8 से रात 10 बजे तक) या कॉल / WhatsApp कीजिए। <a href="contact.html">संपर्क पेज देखें</a>।</span><span lang="en">Yes — come to the shop (daily, 8 AM to 10 PM) or call / WhatsApp us. <a href="contact.html">See the Contact page</a>.</span></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== See also ===================== -->
+<section class="sec" id="more-pages" aria-labelledby="more-pages-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow"><span lang="hi">और भी देखिए</span><span lang="en">See also</span></span>
+      <h2 id="more-pages-title"><span lang="hi">वेबसाइट से जुड़ी जानकारी</span><span lang="en">About websites</span></h2>
+    </div>
+    <div class="cat-grid" data-stagger>
+      <a class="cat reveal" data-cat="money" href="business-website.html">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-grid-fill"/></svg></span>
+        <h3><span lang="hi">दुकान / बिज़नेस की वेबसाइट</span><span lang="en">Shop &amp; business website</span></h3>
+        <p><span lang="hi">कॉल, WhatsApp, नक्शा और सामान की सूची</span><span lang="en">Call, WhatsApp, map and product list</span></p>
+        <span class="more"><span><span lang="hi">जानकारी देखें</span><span lang="en">See details</span></span><svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+      </a>
+      <a class="cat reveal" data-cat="travel" href="coaching-website.html">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-person-check-fill"/></svg></span>
+        <h3><span lang="hi">कोचिंग की वेबसाइट</span><span lang="en">Coaching website</span></h3>
+        <p><span lang="hi">कोर्स, बैच और ऑनलाइन पूछताछ</span><span lang="en">Courses, batches and online enquiries</span></p>
+        <span class="more"><span><span lang="hi">जानकारी देखें</span><span lang="en">See details</span></span><svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+      </a>
+      <a class="cat reveal" data-cat="all" href="website-app.html">
+        <span class="svc-ico"><svg class="i" aria-hidden="true"><use href="#i-laptop"/></svg></span>
+        <h3><span lang="hi">वेबसाइट, ऐप और सॉफ़्टवेयर</span><span lang="en">Websites, apps &amp; software</span></h3>
+        <p><span lang="hi">वेब एप्लिकेशन, मैनेजमेंट सॉफ़्टवेयर और हमारा नमूना</span><span lang="en">Web apps, management software and our sample</span></p>
+        <span class="more"><span><span lang="hi">सब देखें</span><span lang="en">See everything</span></span><svg class="i" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Closing call-to-action ===================== -->
+<section class="sec cta-sec" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="band-copy">
+        <h2 id="cta-title"><span lang="hi">अपने ऐप के आइडिया के बारे में बात कीजिए</span><span lang="en">Let's talk about your app idea</span></h2>
+        <p><span lang="hi">कॉल या WhatsApp कीजिए — या जामा मस्जिद मार्केट, बटलर रोड की दुकान पर आइए। रोज़ सुबह 8 से रात 10 बजे तक।</span><span lang="en">Call or WhatsApp — or visit the shop at Jama Masjid Market, Butler Road. Every day, 8 AM to 10 PM.</span></p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-gold" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल करें</span><span lang="en">Call now</span></a>
+        <a class="btn btn-wa" data-wa data-wa-hi="नमस्ते अरफा इंटरनेट, मुझे मोबाइल ऐप बनवाने के बारे में बात करनी है।" data-wa-en="Hello Arfah Internet, I'd like to talk about getting a mobile app built." href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg><span lang="hi">WhatsApp पर बताइए</span><span lang="en">Tell us on WhatsApp</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== Footer ===================== -->
+<footer class="ftr on-dark">
+  <div class="wrap ftr-grid">
+    <div>
+      <a class="brand" href="index.html" aria-label="Arfah Internet — home">
+        <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+        <span class="name"><b>Arfah Internet</b><small><span lang="hi">अरफा इंटरनेट · मुजफ्फरपुर</span><span lang="en">Maripur, Muzaffarpur</span></small></span>
+      </a>
+      <p><span lang="hi">मारीपुर, मुजफ्फरपुर में फॉर्म, टिकट, रिचार्ज, मोबाइल सेवाओं और प्रिंटिंग का एक ही ठिकाना — और वेबसाइट व ऐप बनवाने की जगह भी (Arfah Web Solutions)।</span><span lang="en">Forms, tickets, recharge, mobile services and printing — one stop in Maripur, Muzaffarpur — and a place to get a website or app built too (Arfah Web Solutions).</span></p>
+    </div>
+    <div>
+      <h4><span lang="hi">जल्दी पहुँचें</span><span lang="en">Quick links</span></h4>
+      <ul>
+        <li><a href="index.html"><span lang="hi">होम</span><span lang="en">Home</span></a></li>
+        <li><a href="service.html"><span lang="hi">सेवाएँ</span><span lang="en">Services</span></a></li>
+        <li><a href="printing-photocopy.html"><span lang="hi">फोटोकॉपी और प्रिंट</span><span lang="en">Photocopy &amp; print</span></a></li>
+        <li><a href="website-app.html"><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; App</span></a></li>
+        <li><a href="about.html"><span lang="hi">हमारे बारे में</span><span lang="en">About us</span></a></li>
+        <li><a href="contact.html"><span lang="hi">संपर्क</span><span lang="en">Contact</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h4><span lang="hi">वेबसाइट और ऐप</span><span lang="en">Website &amp; app</span></h4>
+      <ul>
+        <li><a href="business-website.html"><span lang="hi">दुकान / बिज़नेस की वेबसाइट</span><span lang="en">Shop &amp; business websites</span></a></li>
+        <li><a href="school-website.html"><span lang="hi">स्कूल की वेबसाइट</span><span lang="en">School websites</span></a></li>
+        <li><a href="coaching-website.html"><span lang="hi">कोचिंग की वेबसाइट</span><span lang="en">Coaching websites</span></a></li>
+        <li><a href="app-development.html"><span lang="hi">मोबाइल ऐप</span><span lang="en">Mobile apps</span></a></li>
+        <li><a href="seo-services.html"><span lang="hi">SEO और Google लिस्टिंग</span><span lang="en">SEO &amp; Google listing</span></a></li>
+        <li><a href="directory.html"><span lang="hi">अपना बिज़नेस लिस्ट कराएँ</span><span lang="en">List your business</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h4><span lang="hi">संपर्क</span><span lang="en">Contact</span></h4>
+      <ul>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><a href="tel:+917703844756">+91 77038 44756</a></li>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-envelope-fill"/></svg><a href="mailto:arfahinternet@gmail.com">arfahinternet@gmail.com</a></li>
+        <li class="ci"><svg class="i" aria-hidden="true"><use href="#i-geo-alt-fill"/></svg><a href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><span lang="hi">जामा मस्जिद मार्केट, बटलर रोड, मारीपुर, मुजफ्फरपुर, बिहार</span><span lang="en">Jama Masjid Market, Butler Road, Maripur, Muzaffarpur, Bihar</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h4><span lang="hi">खुलने का समय</span><span lang="en">Opening hours</span></h4>
+      <p><span lang="hi">रोज़ सुबह 8:00 – रात 10:00 बजे<br>सातों दिन, छुट्टियों में भी</span><span lang="en">Every day, 8:00 AM – 10:00 PM<br>All seven days, holidays included</span></p>
+    </div>
+  </div>
+  <div class="ftr-bottom">
+    <div class="wrap">
+      <p class="ftr-legal"><span lang="hi"><strong>अरफा इंटरनेट एक निजी (प्राइवेट) दुकान है — सरकारी कार्यालय नहीं।</strong> पैन, आधार, पासपोर्ट जैसे दस्तावेज़ संबंधित सरकारी विभाग ही जारी करते हैं; हम आवेदन भरने और ऑनलाइन कामों में आपकी मदद करते हैं।</span><span lang="en"><strong>Arfah Internet is a private business — not a government office.</strong> Documents such as PAN, Aadhaar and passport are issued only by the respective government departments; we help you with the applications and online work.</span></p>
+      <span>&copy; <span id="year">2026</span> Arfah Internet. <span lang="hi">सर्वाधिकार सुरक्षित।</span><span lang="en">All rights reserved.</span></span>
+      <span><span lang="hi">वेबसाइट: </span><span lang="en">Website by </span><a href="https://www.mdaman.tech" target="_blank" rel="noopener">Md Aman</a> · <span lang="hi">सभी ब्रांड और पोर्टल के नाम उनके मालिकों के हैं।</span><span lang="en">All brand and portal names belong to their respective owners.</span></span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ===================== Floating UI ===================== -->
+<nav class="mbar" aria-label="त्वरित संपर्क / Quick contact">
+  <a class="call" href="tel:+917703844756"><svg class="i" aria-hidden="true"><use href="#i-telephone-fill"/></svg><span lang="hi">कॉल</span><span lang="en">Call</span></a>
+  <a class="wa" data-wa href="https://wa.me/917703844756" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
+  <a class="dir" href="https://www.google.com/maps/dir/?api=1&amp;destination=26.1233333,85.3689167" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-signpost-split-fill"/></svg><span lang="hi">रास्ता</span><span lang="en">Directions</span></a>
+</nav>
+<button type="button" class="totop" id="totop"><span class="sr-only"><span lang="hi">ऊपर जाएँ</span><span lang="en">Back to top</span></span><svg class="i" aria-hidden="true"><use href="#i-arrow-up"/></svg></button>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
